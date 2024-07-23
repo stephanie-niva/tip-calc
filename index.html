@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h2>
+        <div class="bill-amount">
+            <span>Bill Amount (Ksh):</span>
+            <input type="number" id="billTotal" placeholder="Enter bill total">
+        </div>
+        <div class="tip-percentage">
+            <span>Tip in %:</span><br>
+            <button id="btn15">15%</button>
+            <button id="btn18">18%</button>
+            <button id="btn20">20%</button>
+        </div>
+        <div class="number-of-people">
+            <span>Number of People:</span>
+            <input type="number" id="noOfPeople" placeholder="Enter number of people">
+        </div>
+        <button id="calculate">Calculate</button>
+        <div class="tip-and-total">
+            <div class="total-tip">
+                <span>Total Tip Per Person:</span><br>
+                <span id="totalTip">Ksh0.00</span>
+            </div>
+            <div class="total-bill">
+                <span>Total Bill Per Person:</span><br>
+                <span id="totalBill">Ksh0.00</span>
+            </div>
+        </div>
+    </div>
+    
+   <script src="script.js"> </script>
+</body>
+</html>

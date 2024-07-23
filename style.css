@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+.container {
+    background-color: peachpuff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    height: 900px;
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.bill-amount{
+    margin-top: 70px;
+}
+.tip-percentage{
+    margin-top: 50px;
+}
+.number-of-people{
+    margin-top: 50px;
+}
+.total-tip{
+    margin-bottom: 70px;
+}
+.total-bill {
+    margin-bottom: 90px;
+}
+#btn15{
+    background-color: orange;
+}
+#btn18{
+    background-color: yellow;
+}
+#btn20{
+    background-color: chartreuse;
+}
+
+#noOfPeople{
+    height: 50px;
+    width: 200px;
+}
+#billTotal{
+    height: 50px;
+    width: 200px;
+}
+.bill-amount span{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.tip-percentage span{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.number-of-people span{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.total-tip span{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+.total-bill span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+#totalBill{
+    font-size: large;
+}
+#totalTip{
+    font-size: large;
+}
+.tip-percentage button {
+    background-color: #F0F0F0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#calculate {
+    background-color: #805B96;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.tip-and-total {
+    margin-top: 70px;
+    font-size: large;
+}
